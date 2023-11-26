@@ -1,0 +1,29 @@
+:root{
+  /* цвета */
+  --color-yellow:#FFAB08;
+  --color-orange:#FF7020;
+  --color-black:#000;
+  --color-white:#fff;
+
+
+  /* отступы */
+
+  --padding-small:15px;
+  --padding-medium:20px;
+  --padding-large:30px;
+
+}
+
+*,
+::after,
+::before{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container{
+  max-width: 1300px;
+  padding: 0 10px;
+  margin: 0 auto;
+}
